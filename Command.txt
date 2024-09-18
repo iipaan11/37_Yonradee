@@ -1,0 +1,15 @@
+docker -v
+docker run hello-world
+docker run buybox ping google.com
+docker stop 780d2e6ecdfb
+docker rm 99c5e44ed7ec 
+docker run -p 8800:80 nginx
+docker run -d -p 7800:80 nginx
+docker create busybox ping google.com
+docker start <image ID>
+docker system prune
+docker exec -it <contariner ID> (sh, bash)
+docker rm <>
+docker run -p 8800:80 nginx
+docker image
+docker system df
